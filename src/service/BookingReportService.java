@@ -1,0 +1,16 @@
+package service;
+
+import model.Reservation;
+
+public class BookingReportService {
+
+    public void generateReport(BookingHistory history) {
+
+        System.out.println("\nBooking History Report:");
+
+        for (Reservation r : history.getAllReservations()) {
+            System.out.println("Guest: " + r.getGuestName()
+                    + ", Room Type: " + r.getRoomType());
+        }
+    }
+}
