@@ -1,3 +1,4 @@
+import inventory.RoomInventory;
 public class UseCase3InventorySetup {
 
     public static void main(String[] args) {
